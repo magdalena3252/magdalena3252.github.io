@@ -1,0 +1,165 @@
+body {
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    margin:0;
+    padding:0;
+    letter-spacing: 1.3px;
+    /* margin-left: 100px; */
+    /* margin-top: 100px; */
+    /* background-image: url("https://picsum.photos/200/300/?blur")  */
+}
+
+*{
+    box-sizing: border-box;
+}
+
+td{ /* selector */
+
+text-align: center; /* property: value; */
+}
+
+table {
+    /* text-align: center; */
+    line-height: 200%;
+    width: 300px;
+    height: 200px;
+    border-top: 5px solid mediumvioletred;
+    color: rgb(66, 66, 80);
+    font-weight: bold;
+}
+
+table th {
+    text-align: left;
+    color:goldenrod;
+}
+    
+h1 {
+        color:rgb(90, 90, 4);
+    }
+
+ h3 {
+     color:firebrick;
+     font-size: 34px;
+     font-weight:900;
+     margin: 0;
+
+ }
+
+ p{
+     color: grey;
+     font-weight: bold;
+     margin: 0;
+     /* text-indent: 50px;*/
+ }
+
+ /* h3, p {
+     color:dimgray;
+ } */
+
+ .sub_element {
+     color:red;
+ }
+
+ /* sup.sub_element {
+     color:red;
+ } */
+
+/* .first-class {
+    color:yellowgreen;
+}
+
+h1 {
+    color:violet;
+}
+
+.third-class {
+    color:deeppink !important;
+}
+
+#first-id {
+    color:deepskyblue;
+} */
+footer strong {
+    text-decoration: underline wavy #FF66CE;
+}
+mark {
+    border-radius: 5px;
+}
+
+div#main-content {
+    background-image: linear-gradient(170deg, #F8EDED, #F6DFEB);
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+a{
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: firebrick;
+
+}
+
+article {
+    margin-bottom: 80px;
+}
+
+/* /* table tr:first-child {
+    color:blue;
+ } */
+
+
+/* span{
+    display:block;
+} */
+
+
+#articles {
+   flex-grow: 1;
+}
+
+#skills {
+    flex-grow: 1;
+    /* align-self: center; */
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    /* background-color: honeydew; */
+    background-image: linear-gradient(20deg, #F5E8C7, #fffee4);
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #E4BAD4;
+    color:purple;
+}
+
+@media screen and (min-width: 600px) {
+    footer{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    div#main-content, header {
+        flex-direction: column;
+    }
+}

@@ -5,61 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My first website</title>
+    <link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header><h1>Welcome to&nbsp;my&nbsp;first&nbsp;website!</h1>
+<!-- <div class="first-class">
+        <div class="second-class">
+             <h1 style="color:slategray;" id="first-id" ; class="third-class">Text</h1>
+         </div>
+    </div> -->
+<header>
+    <h1>Welcome to my first website!</h1>
         <a href="contact.html">Contact me</a>
         <!--<a href="https://www.google.com">Find in Google</a>>-->
-        <br>
     </header>
-    <article><h3>This is my first blog post</h3>
-        <p>This is the content of my first blog post</p>
-        <br>
-         </article>
-         <article> <h3>This is my second blog post</h3>
-            <p>This is the content of my &lt;something&gt; second blog post</p>
-            <br><!--this tag is used for a new line-->
-            <br>
-             </article>
-             <article>    <h3>This is my third blog post</h3>
-                <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>breaking line</i>.<sup class="sub_element" style="color: red;">*</sup></p> 
-                <small><sup class="sub_element">*</sup>Another sentence</small>
-             </article>
-
-    <br><!--this tag is used for a new line-->
-    <br>
-    <br>
-    
-    <div> <!--div is the block element-->
-        My skills:
-        <ol>
-            <li>I know HTML :) </li>
-            <li>I don't know CSS yet :( </li>
-        </ol>
-        <table border="1">
-            <tr>
-                <th>Technology</th>
-                <th>Level</th>
-            </tr>
-            <tr>
-                <td>HTML</td>
-                <td>4</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>0 :(</td>
-            </tr>
-           
-        </table>
-      
-    </div>
-    <br>
-    <br>
-    <br>
-    <footer><div>
+    <div id="main-content">
+        <section: id="articles">
+            <article>
+                <!-- <article style="border: 1px solid black; padding-left: 30px;"> -->
+                <h3>This is my first blog post.</h3>
+                <p>This is the content of my
+                    first blog post.</p>
+            </article>
+            <article>
+                <h3>This is my second blog post</h3>
+                <p> This is the content of my &lt;something&gt; second blog post. </p>
+            </article>
+            <article>
+                <h3>This is my third blog post</h3>
+                <p>This is the <mark>content</mark> of my third blog post. <br> Continue the content after <i>breaking line</i>.<sup
+                        class="sub_element">*</sup></p> <small><sup class="sub_element">*</sup>Another sentence</small>
+            </article>
+        </section>
+        <div id="skills">
+            <!--div is the block element-->
+            <b style="font-size:34px; font-weight: 900; color: #B67162;">My skills</b>
+            <table>
+                <tr>
+                    <th>Technology</th>
+                    <th>Level</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>good :)</td>
+                    </tr>
+            </table>
+            </div>
+        </div>
+        
+        <footer>
+            <div>
         Footer area. &copy; <strong>Me</strong> & <b>MY Tutor</b>
     </div>
+
     <!-- Content not wrapped in any tag (barely used in reality) --></footer>
     <script src="scripts.js"></script>
 </body>
